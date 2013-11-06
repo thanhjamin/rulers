@@ -1,6 +1,6 @@
 require_relative "test_helper"
 
-class TestController < Rulers::TestController
+class TestController < Rulers::Controller
   def index
     "Hello!" # Not rendering a view
   end
